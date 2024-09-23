@@ -1,0 +1,646 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#132D44">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Your Activities"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="@font/arvo"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            />
+
+
+        <!-- Login Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Water Intake"
+            android:textSize="18sp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/waterintakers"
+            android:fontFamily="@font/arvo"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/bgfor_btn_1"
+
+            />
+
+
+        <!-- Login Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sleep Tracker"
+            android:fontFamily="@font/arvo"
+            android:id="@+id/sleeptrackers"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="220dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bgfor_btn_2"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/dashbaord_layout_bg1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/dashbaord_first_img_layout_bg"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/treadmillrunning"
+                    android:layout_marginLeft="10dp"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calories"
+                android:fontFamily="@font/arvo"
+
+                android:textColor="#111111"
+
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginTop="35dp"
+                android:textColor="#111111"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kcel"
+                android:textAlignment="center"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginLeft="45dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/dashbaord_layout_bg2"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/dashbaord_first_img_layout_bg"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/clock"
+                    android:layout_marginLeft="10dp"
+
+                    />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kcel"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:textAlignment="center"
+                android:layout_marginLeft="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="258dp"
+            android:background="@drawable/dashbaord_layout_bg3"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dashbaord_first_img_layout_bg"
+                >
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/keepdistance"
+                    android:layout_marginLeft="10dp" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kcel"
+                android:textColor="#111111"
+                android:fontFamily="@font/arvo"
+
+                android:textAlignment="center"
+                android:layout_marginLeft="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="365dp"
+            android:orientation="vertical"
+            android:id="@+id/layoutSecond"
+            android:background="@drawable/dashbaord_second_layout_bg">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Daily Goal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arvo"
+
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 7 Days"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp">
+
+                <!-- Circular Progress Bar 1 -->
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:id="@+id/circularProgressBar1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progressbar"
+                    android:max="100"
+                    android:progress="80" />
+
+                <!-- Circular Progress Bar 2 -->
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:id="@+id/circularProgressBar2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progressbar"
+                    android:max="100"
+                    android:progress="60"
+                    android:layout_marginLeft="20dp"
+                    />
+
+                <!-- Circular Progress Bar 3 -->
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:id="@+id/circularProgressBar3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progressbar"
+                    android:max="100"
+                    android:progress="40"
+                    android:layout_marginLeft="25dp"/>
+
+                <!-- Circular Progress Bar 4 -->
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:id="@+id/circularProgressBar4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progressbar"
+                    android:max="100"
+                    android:progress="20"
+                    android:layout_marginLeft="25dp"
+                    />
+
+                <!-- Circular Progress Bar 5 -->
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:id="@+id/circularProgressBar5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progressbar"
+                    android:max="100"
+                    android:progress="10"
+                    android:layout_marginLeft="20dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mon"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="3dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tue"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wed"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thu"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="3dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fri"
+                    android:textSize="13dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="3dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:id="@+id/layoutthird"
+            android:layout_below="@+id/layoutSecond"
+            android:background="@drawable/dashbaord_second_layout_bg">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start new Activity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The goal you Reach"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvo"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/exercise_icon_bg"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/run"
+                        android:id="@+id/run_icons"
+                        android:layout_marginLeft="8dp"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/exercise_icon_bg"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cycling"
+                        android:layout_marginLeft="8dp"
+                        android:id="@+id/cyclings"
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/exercise_icon_bg"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:id="@+id/swimmings"
+                        android:src="@drawable/swimmer"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/exercise_icon_bg"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/legs"
+                        android:id="@+id/legss"
+                        android:layout_marginLeft="8dp"
+
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/exercise_icon_bg"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/yogas"
+                        android:id="@+id/yogass"
+                        android:layout_marginLeft="8dp"
+
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Run"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cycle"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swim"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Legs"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yoga"
+                    android:textSize="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/arvo"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/layoutthird"
+            android:background="@drawable/dashbaord_second_layout_bg">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limit Workout . Outdoor Run"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvo"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 7 Days"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/arvo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- Fragment container where fragments will be loaded -->
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_navigation" />
+
+        <!-- Bottom Navigation View -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu"
+            android:background="?android:attr/windowBackground"
+            app:itemIconTint="@color/bottom_nav_color"
+            app:itemTextColor="@color/bottom_nav_color"
+            app:labelVisibilityMode="labeled" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

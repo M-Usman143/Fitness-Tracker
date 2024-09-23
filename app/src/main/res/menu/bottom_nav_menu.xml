@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_workout"
+        android:icon="@drawable/treadmillrunning"
+        android:title="Workout" />
+
+    <item
+        android:id="@+id/nav_progress"
+        android:icon="@drawable/about_ic"
+        android:title="Community" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_setting"
+        android:title="Settings" />
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Layer (Black) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/> <!-- Capsule shape -->
+            <solid android:color="#8DB2BF"/> <!-- Black background -->
+        </shape>
+    </item>
+
+    <!-- Progress Layer (Green) -->
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="vertical" android:gravity="bottom">
+            <shape android:shape="rectangle">
+                <corners android:radius="16dp"/> <!-- Capsule shape for the progress -->
+                <solid android:color="#E5C466"/> <!-- Green progress -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

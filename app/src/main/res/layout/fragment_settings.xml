@@ -1,0 +1,307 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="@font/arvo"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            />
+
+
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="My Account"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/arvo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/accounttext"
+            android:textColor="@color/black"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#D3D3D3"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Main container for settings options -->
+        <LinearLayout
+            android:id="@+id/settings_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/accounttext"
+            android:padding="16dp"
+            >
+
+
+            <!-- Goal Settings section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/setting_item_bg">
+
+                <TextView
+                    android:id="@+id/goal_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name:"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="20sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/goal_labels"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Muhammad Usman"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+
+            <!-- Goal Settings section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/setting_item_bg">
+
+                <TextView
+                    android:id="@+id/goal_labesssl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email:"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="20sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/goal_labelsssssss"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="usman@gmail.com"
+                    android:textSize="18sp"
+
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#D3D3D3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Goal Settings section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/setting_item_bg">
+
+                <TextView
+                    android:id="@+id/goal_labelss"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Passward:"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="20sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/goal_labelssss"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="**********"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#D3D3D3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp" />
+
+
+            <!-- Notifications section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="@drawable/setting_item_bg">
+
+                <TextView
+                    android:id="@+id/notification_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/arvo"
+
+                    android:text="Notifications"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <Switch
+                    android:id="@+id/switch_notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#D3D3D3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp" />
+
+
+            <!-- Theme Settings -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/setting_item_bg">
+
+                <TextView
+                    android:id="@+id/theme_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="App Theme"
+                    android:fontFamily="@font/arvo"
+
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/theme_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Theme settings" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#D3D3D3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Data Sync section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/data_sync_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Data Sync"
+                    android:fontFamily="@font/arvo"
+
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/data_sync_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Data sync" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#D3D3D3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Reset Data section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/reset_data_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Reset App Data"
+                    android:fontFamily="@font/arvo"
+
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/reset_data_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Reset data" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
